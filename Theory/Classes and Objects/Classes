@@ -1,0 +1,23 @@
+The class  is used to pack data and functions together. The class has a mechanism to prevent direct access to its members,. The class declaration is also known as formation of new abstract data type.
+Syntax of Class declaration : 
+class <name of class>{
+  private:
+  
+  declaration of variables;
+  prototype declaration of function;
+  
+  public:
+  
+  declaration of  variables;
+  prototype declaration of function;
+
+};  
+
+The member variable and functions are divided into two sections i.e. private and public. The obejct cannot directle access the member vairables and finctions declared in private section. The private member can only
+br accessed by the public member function of the same class.
+
+Accesing Class Members :
+The obejct can access the public member variables and functions of a class by using a operator dot(.) and arrow(->). the syntax is as follows :
+[Object name] [Operator] [Member name]
+
+
