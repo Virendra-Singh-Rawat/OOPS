@@ -1,0 +1,18 @@
+#include <bits/stdc++.h> 
+using namespace std; 
+class item {
+    public:
+    int codeno;
+    float price;
+    int qty;
+};
+int  main(){
+    item i;
+    i.codeno=123;
+    i.price=123.50;
+    i.qty=150;
+
+    cout<<"Codeno = "<<i.codeno<<endl;
+    cout<<"Price = "<<i.price<<endl;
+    cout<<"Quantity = "<<i.qty<<endl;
+}
