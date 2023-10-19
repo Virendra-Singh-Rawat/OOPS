@@ -1,0 +1,4 @@
+Data hiding is also known as encapsulation. It is a process of forming objects. An encapsulated object is often called as an abstract data type. We need to encapsulate
+data because the programmer often make various mistakes and the data gets changed acidentally. Thus, to protect the data we need to struct a secure and impassable wall 
+to protect the data. Data hiding is nothing but making data variable of the class private. 
+The keywords "private" and "protected" are used for hiding the data.
